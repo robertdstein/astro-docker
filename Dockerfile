@@ -6,4 +6,5 @@ RUN  apt-get update \
      sextractor \
      scamp \
      swarp \
+     imagemagick \
   && rm -rf /var/lib/apt/lists/*
